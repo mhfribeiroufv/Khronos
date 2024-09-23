@@ -49,3 +49,9 @@ Parte das aulas práticas serão retiradas deste projeto e, após sua realizaç�
 - Node.js
 - Express.js (framework para projetos no padrão MVC)
 - Banco de dados: SQLite 3
+
+### Plataforma utilizada pelo professor
+
+- Linux Ubuntu
+- VSCode
+- Chrome (majoritariamente) e Firefox
