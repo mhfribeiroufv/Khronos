@@ -2,7 +2,9 @@
 
 ## Descrição Sucinta
 
-Ferramenta Web estilo "planner", onde o usuário poderá criar compromissos, lembretes, listas de tarefas e atividades em geral. Contemplará um sistema de tags e/ou categorização destes itens. Também possuirá diferentes visualizações, em formatos de listas e calendários. Haverá telas CRUD para edição de conteúdo, mas também poderá fazer boa parte da interação diretamente das visualizações.
+Ferramenta Web estilo "planner", onde o usuário poderá criar atividades como compromissos, lembretes, e tarefas, que podem estar opcionalmente associadas entre si e também associadas com alguns recursos, como notas textuais, imagens ou URLs.
+
+O sistema contemplará um sistema de tags e/ou categorização destes itens, que estarão associados a projetos gerenciados pelo usuário. Khronos também possuirá diferentes visualizações interativas, em formatos de listas de tarefas, calendários e Kanban. Haverá telas CRUD para edição de conteúdo, mas também poderá fazer boa parte da interação diretamente das visualizações.
 
 ## Objetivos
 
@@ -21,7 +23,7 @@ Parte das aulas práticas serão retiradas deste projeto e, após sua realizaç�
 
 ### Documental
 
-- Diagramas UML: classes, casos de uso e de sequência
+- Diagramas UML: classes e casos de uso
 - Diagrama de Entidade-Relacionamento do banco de dados
 - Concepção básica da interface
 
