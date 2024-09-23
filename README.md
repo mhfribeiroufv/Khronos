@@ -23,7 +23,7 @@ Parte das aulas práticas serão retiradas deste projeto e, após sua realizaç�
 
 - Diagramas UML: classes, casos de uso e de sequência
 - Diagrama de Entidade-Relacionamento do banco de dados
-- Protótipos não funcionais
+- Concepção básica da interface
 
 ### Compartilhamento
 
