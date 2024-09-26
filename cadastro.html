@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Khronos</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <h1>Projeto Khronos - Primeiros Exemplos</h1>
+
+    <h3>Cadastre-se</h3>
+
+    <!-- Os atributos action e method são os clássicos do uso de formulários. Veremos suas aplicações e implicações mais adiante -->
+    <form action="#" method="post" autocomplete="on">
+      <!-- texto curto -->
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" /><br /><br />
+
+      <!-- Data -->
+      <label for="data_nasc">Data de Nascimento:</label>
+      <input type="date" id="data_nasc" />
+      <br /><br />
+
+      <!-- Múltipla escolha: uma opção -->
+      Função:
+      <input type="radio" id="dev_front" name="genero" />
+      <!-- Veremos os usos de id e name mais adiante -->
+      <label for="dev_front">Desenvolvedor <em>front-end</em></label>
+      <input type="radio" id="dev_back" name="genero" />
+      <label for="dev_back">Desenvolvedor <em>back-end</em></label>
+      <input type="radio" id="dev_full" name="genero" />
+      <label for="dev_full">Desenvolvedor <em>full-stack</em></label>
+      <br /><br />
+
+      <!-- Múltipla escolha: qualquer quantidade de opções -->
+      Linguagens que conheço:<br />
+      <input type="checkbox" id="lang_html" name="lang_html" />
+      <label for="lang_html">HTML</label><br />
+      <input type="checkbox" id="lang_css" name="lang_css" />
+      <label for="lang_css">CSS</label><br />
+      <input type="checkbox" id="lang_js" name="lang_js" />
+      <label for="lang_js">JavaScript</label>
+      <br /><br />
+
+      <!-- Caixa de seleção -->
+      <label for="aprendizado">Nível de aprendizado:</label>
+      <select id="aprendizado">
+        <option value="basico">Básico</option>
+        <option value="intermed" selected>Intermediário</option>
+        <option value="avanc">Avançado</option>
+      </select>
+      <br /><br />
+
+      <!-- Texto longo -->
+      <label for="obs">Observações:</label><br />
+      <textarea id="obs" rows="7" cols="80"></textarea>
+      <br /><br />
+
+      <!-- Botões -->
+      <input type="reset" value="Limpar" />
+      |
+      <button>Enviar</button>
+    </form>
+
+    <p>
+      <strong>Obs.:</strong> este não será o cadastro que efetivamente vai ser
+      usado no site. É um exemplo apenas ilustrativo dos recursos de formulário.
+    </p>
+
+    <p>
+      Existem vários outros tipos de campos de formulário.
+      <a href="https://www.w3schools.com/html/html_forms.asp" target="_blank"
+        >Nesta fonte</a
+      >
+      (em inglês), você pode encontrar uma referência completa.
+    </p>
+
+    <div>
+      <a href="index.html">Home</a>
+      |
+      <a href="login.html">Efetuar Login</a>
+    </div>
+  </body>
+</html>
